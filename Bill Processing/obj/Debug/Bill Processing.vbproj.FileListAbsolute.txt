@@ -1,0 +1,16 @@
+C:\Users\rupa\documents\visual studio 2015\Projects\Bill Processing\Bill Processing\bin\Debug\list.ini
+C:\Users\rupa\documents\visual studio 2015\Projects\Bill Processing\Bill Processing\bin\Debug\Bill Processing.exe.config
+C:\Users\rupa\documents\visual studio 2015\Projects\Bill Processing\Bill Processing\bin\Debug\Bill Processing.exe.manifest
+C:\Users\rupa\documents\visual studio 2015\Projects\Bill Processing\Bill Processing\bin\Debug\Bill Processing.application
+C:\Users\rupa\documents\visual studio 2015\Projects\Bill Processing\Bill Processing\bin\Debug\Bill Processing.exe
+C:\Users\rupa\documents\visual studio 2015\Projects\Bill Processing\Bill Processing\bin\Debug\Bill Processing.pdb
+C:\Users\rupa\documents\visual studio 2015\Projects\Bill Processing\Bill Processing\bin\Debug\Bill Processing.xml
+C:\Users\rupa\documents\visual studio 2015\Projects\Bill Processing\Bill Processing\obj\Debug\Bill_Processing.frmMain.resources
+C:\Users\rupa\documents\visual studio 2015\Projects\Bill Processing\Bill Processing\obj\Debug\Bill_Processing.Resources.resources
+C:\Users\rupa\documents\visual studio 2015\Projects\Bill Processing\Bill Processing\obj\Debug\Bill_Processing.SplashScreen.resources
+C:\Users\rupa\documents\visual studio 2015\Projects\Bill Processing\Bill Processing\obj\Debug\Bill Processing.vbproj.GenerateResource.Cache
+C:\Users\rupa\documents\visual studio 2015\Projects\Bill Processing\Bill Processing\obj\Debug\Bill Processing.exe.manifest
+C:\Users\rupa\documents\visual studio 2015\Projects\Bill Processing\Bill Processing\obj\Debug\Bill Processing.application
+C:\Users\rupa\documents\visual studio 2015\Projects\Bill Processing\Bill Processing\obj\Debug\Bill Processing.exe
+C:\Users\rupa\documents\visual studio 2015\Projects\Bill Processing\Bill Processing\obj\Debug\Bill Processing.xml
+C:\Users\rupa\documents\visual studio 2015\Projects\Bill Processing\Bill Processing\obj\Debug\Bill Processing.pdb

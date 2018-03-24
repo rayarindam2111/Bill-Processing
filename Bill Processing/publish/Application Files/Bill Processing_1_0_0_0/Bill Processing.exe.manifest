@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="Bill Processing.exe" version="1.0.0.0" publicKeyToken="99c2c2cb4515bb75" language="neutral" processorArchitecture="msil" type="win32" />
+  <description asmv2:iconFile="Graphicloads-Flat-Finance-File.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="Bill Processing" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="Bill Processing.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the 
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward 
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="4" minorVersion="10" buildNumber="0" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="2.0.50727.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Bill Processing.exe" size="356728">
+      <assemblyIdentity name="Bill Processing" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>YNkW6COYg0zogACCM870P6t4dUI=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="Graphicloads-Flat-Finance-File.ico" size="167008">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>uFuWtbNMYIlnTDS5qNBGeQ7Wfq4=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="list.ini" size="1184">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>ardKJ/AepA5fc8kdmSGd+19ZFEo=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=magic\rupa" issuerKeyHash="135012aaadcf14e7a345a900f9a0dbb7df78919c" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>bA+8S8VKTmMk+3caUBbmFhkq7Wg=</DigestValue></Reference></SignedInfo><SignatureValue>UP0Q64BZeC9Q9XR0uCOXFmLGnFCXKggLeJ6UnzzO+JfDkF8Lp3DFDvMON13V5s7cYHJ1yhXW0v6TTMgyY6sBqldKVBI+Lw5/gMXyWXO0fRTLA+Xc7IWDVNeCAOZO6yz2MB2rYBzoEjqvKZr9XprEq4CXQ/lQOKp0GGge1MMQ+qg=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>knpFqYA9GUj1hd5VXh6jg1yZA9PnW23IJNw+cjJDrkh6jQsLyiTKbftm/FEHj80I9jda9N86n7Ebz+g7AVadZ5uIIYyKAu/DrLDJQOVziT2dhn6jm+/Wt15B/gq/EhDb3OFO6b1Bb4c50CkqEtc3ZOZoWRkKxwEimkxYhHfb7HU=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="68ed2a1916e616501a77fb24634e4ac54bbc0f6c" Description="" Url=""><as:assemblyIdentity name="Bill Processing.exe" version="1.0.0.0" publicKeyToken="99c2c2cb4515bb75" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=magic\rupa</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>k2s0MxIdq811vv83nHoQBw950dQ=</DigestValue></Reference></SignedInfo><SignatureValue>QyUTuECBrDzDep2ZTaJDJ6nKfUWWutspBdpcR6uzQkCHkyybNsrVgv15XFYlpOGrqPbHMVEQf6pjIATl84P2B2PoKSF03iQZ37PVH4mPpdF8tYPoG9pqdpDUsFOX1ZhRmMGjQwxG6AeRubhOuCLpP7/Wa4EDy+HVu5isrEd0VL8=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>knpFqYA9GUj1hd5VXh6jg1yZA9PnW23IJNw+cjJDrkh6jQsLyiTKbftm/FEHj80I9jda9N86n7Ebz+g7AVadZ5uIIYyKAu/DrLDJQOVziT2dhn6jm+/Wt15B/gq/EhDb3OFO6b1Bb4c50CkqEtc3ZOZoWRkKxwEimkxYhHfb7HU=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIBwTCCASqgAwIBAgIQFXJ//oVGVLxKunFVCdAhxTANBgkqhkiG9w0BAQUFADAfMR0wGwYDVQQDHhQAbQBhAGcAaQBjAFwAcgB1AHAAYTAeFw0xNjA5MjkxMTI1MTdaFw0xNzA5MjkxNzI1MTdaMB8xHTAbBgNVBAMeFABtAGEAZwBpAGMAXAByAHUAcABhMIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCSekWpgD0ZSPWF3lVeHqODXJkD0+dbbcgk3D5yMkOuSHqNCwvKJMpt+2b8UQePzQj2N1r03zqfsRvP6DsBVp1nm4ghjIoC78OssMlA5XOJPZ2GfqOb79a3XkH+Cr8SENvc4U7pvUFvhznQKSoS1zdk5mhZGQrHASKaTFiEd9vsdQIDAQABMA0GCSqGSIb3DQEBBQUAA4GBAAZh5/p7VUMAaHZ5d97sc3EfoGWH0KQDgOmGXuHjx+tQ/b3mj5fRLWdJwgx9ITxLs7LRwcCajT6dZ0KcbdbkNNwfMhRcDji2YiJWRBs81XPSupS1PGFtPbTeyWGky4drwulEXWBOdQeAni+UMuidmHTu5aCwJBbEcfA3mlk8kKQQ</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
